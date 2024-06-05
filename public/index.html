@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Inmobiliaria Sanfer</title>
+
+    <link rel="icon" type="image/x-icon" href="./imgs/pngwing.com.png" />
+  </head>
+  <body class="font-Poppins">
+    <!-- Header -->
+    <header>
+      <nav class="container flex items-center py-4 mt-4 sm:mt-12">
+        <div class="py-1"><img class="w-14" src="./imgs/pngwing.com.png" alt="" /></div>
+        <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
+          <li class="cursor-pointer">Inicio</li>
+          <li class="cursor-pointer">Propiedades</li>
+          <li class="cursor-pointer">Servicios</li>
+          <li class="cursor-pointer">Sobre nosotros</li>
+        </ul>
+        <div class="flex sm:hidden flex-1 justify-end">
+          <i class="text-2xl fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative">
+      <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+        <!-- Content -->
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+          <h2 class="text-bookmark-blue text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">
+            Encuentra tu hogar ideal
+          </h2>
+          <p class="text-bookmark-grey text-lg text-center lg:text-left mb-6">
+            En Inmobiliaria SanFer, nos dedicamos a ofrecer las mejores opciones en alquiler, venta, tasaciones y
+            contratos de propiedades. 
+            Nuestro equipo de expertos está aquí para ayudarte a encontrar el lugar perfecto que se adapte a tus 
+            necesidades y presupuesto. Confía en nosotros para hacer de tu experiencia inmobiliaria algo sencillo
+            y sin complicaciones.
+         </p>
+         <p class="text-bookmark-blue text-3xl md:text-4 lg:text-xl text-center lg:text-left mb-6">
+          ¿que queres hacer?
+       </p>
+
+          <div class="flex justify-center flex-wrap gap-6">
+            <button type="button" class="btn btn-white hover:bg-bookmark-purple hover:text-white">
+              Quiero alquilar.
+            </button>
+            <button type="button" class="btn btn-white hover:bg-bookmark-purple hover:text-white">
+              Quiero comprar.
+            </button>
+            <button type="button" class="btn btn-white hover:bg-bookmark-purple hover:text-white">
+              Quiero vender.
+            </button>
+          </div>
+        </div>
+        <!-- Image -->
+        <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+          <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full rounded-lg" src="./imgs/uno.jpg" alt="" />
+        </div>
+      </div>
+      <!-- Rounded Rectangle -->
+      <div
+        class="
+          hidden
+          md:block
+          overflow-hidden
+          bg-bookmark-purple
+          rounded-l-full
+          absolute
+          h-80
+          w-2/4
+          top-32
+          right-0
+          lg:
+          -bottom-28
+          lg:-right-36
+        "
+      ></div>
+    </section>
+
+    <!-- Features -->
+    <section class="bg-bookmark-white py-20 mt-20 lg:mt-60">
+      <!-- Heading -->
+      <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+        <h1 class="text-3xl text-center text-bookmark-blue">Propiedades</h1>
+        <p class="text-center text-bookmark-grey mt-4">
+          Ofrecemos una amplia variedad de propiedades para satisfacer todas tus necesidades. Ya sea que estés buscando una casa familiar, un apartamento moderno, un local comercial o un terreno para desarrollar tu proyecto, aquí encontrarás opciones que se adaptan a tus requerimientos. Nuestra selección incluye propiedades en venta y alquiler, todas ubicadas en las mejores zonas y con excelentes condiciones. Nuestro equipo está listo para ayudarte a encontrar el lugar perfecto que se ajuste a tu estilo de vida y presupuesto.
+        </p>
+      </div>
+      <div class="bg-white">
+        <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+        
+      
+          <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+            
+            <!-- Propiedades-->
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                  <img class="rounded-t-lg" src="./imgs/casaalquiler" alt="" />
+              </a>
+              <div class="p-5">
+                  <a href="#">
+                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">En el centro de la ciudad</h5>
+                  </a>
+                  <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Casa en alquiler con dos dormitorios, cocina, comerdor, baño y patio.</p>
+                  <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">Ver mas</button>
+                  
+                  </a>
+              </div>
+            </div>
+
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                <img class="rounded-t-lg" src="./imgs/casaalquiler" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">En el centro de la ciudad</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Casa en alquiler con dos dormitorios, cocina, comerdor, baño y patio.</p>
+                <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">Ver mas</button>
+                
+                </a>
+            </div>
+            </div>
+
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                <img class="rounded-t-lg" src="./imgs/casaalquiler" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">En el centro de la ciudad</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Casa en alquiler con dos dormitorios, cocina, comerdor, baño y patio.</p>
+                <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">Ver mas</button>
+                
+                </a>
+            </div>
+            </div>
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                <img class="rounded-t-lg" src="./imgs/casaalquiler" alt="" />
+            </a>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">En el centro de la ciudad</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Casa en alquiler con dos dormitorios, cocina, comerdor, baño y patio.</p>
+                <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">Ver mas</button>
+                
+                </a>
+            </div>
+            </div>
+            
+      
+          
+          </div>
+          
+        </div>
+            
+      
+      </div>
+      
+
+      <!-- Servicios -->
+      <div class="relative mt-20 lg:mt-24">
+        <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+          <!-- Image -->
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img class="w-5/6 h-80 sm:w-3/4 sm:h-3/4 md:w-full md:h-full rounded-lg" src="./imgs/servicios.jpg" alt="" />
+            
+          </div>
+         
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-bookmark-blue">Nuestros servicios</h1>
+            <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+              <ul class=" gap-12 text-bookmark-blue text-xs">
+                <li class="text-2xl text-bookmark-blue">Venta de Propiedades</li>
+                <p>Te ayudamos a encontrar la casa o el departamento de tus sueños. Contamos con una amplia variedad de propiedades en diferentes ubicaciones y rangos de precios.</p>
+                <li class="text-2xl text-bookmark-blue">Alquiler de Propiedades</li>
+                <p>¿Buscas un lugar temporal? Ofrecemos opciones de alquiler para que encuentres el espacio ideal para ti.</p>
+                <li class="text-2xl text-bookmark-blue">Compra de Propiedades</li>
+                <p>Si estás listo para invertir en una propiedad, nuestro equipo de expertos te guiará en todo el proceso de compra.
+                </p>
+                <li class="text-2xl text-bookmark-blue">Tasaciones y Asesoramiento</li>
+                <p>Como martilleros públicos, también realizamos tasaciones profesionales y brindamos asesoramiento legal y financiero.</p>
+              </ul>
+            </p>
+            <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">Mas Info</button>
+          </div>
+        </div>
+        <!-- Rounded Rectangle -->
+        <div
+          class="
+            hidden
+            lg:block
+            overflow-hidden
+            bg-bookmark-purple
+            rounded-r-full
+            absolute
+            h-80
+            w-2/4
+            -bottom-24
+            -left-36
+          "
+        ></div>
+      </div>
+      <!-- Sobre nosotros -->
+      <div class="relative mt-20 lg:mt-52">
+        <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
+
+
+
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0" id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+            <div class="w-5/6 h-80 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+                var setting = {"query":"San Fernando del Valle de Catamarca, Catamarca, Argentina","height":300,"satellite":false,"zoom":16,"placeId":"ChIJzZ8PHb8oJJQRGoYJFkvdHn4","cid":"0x7e1edd4b1609861a","coords":[-28.469581,-65.7795441],"cityUrl":"/argentina/san-fernando-del-valle-de-catamarca-30032","cityAnchorText":"Mapa de San Fernando del Valle de Catamarca, Catamarca, Argentina","lang":"es","queryString":"San Fernando del Valle de Catamarca, Catamarca, Argentina","centerCoord":[-28.469581,-65.7795441],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"1118266"};
+                var d = document;
+                var s = d.createElement('script');
+                s.src = 'https://1map.com/js/script-for-user.js?embed_id=1118266';
+                s.async = true;
+                s.onload = function (e) {
+                  window.OneMap.initMap(setting)
+                };
+                var to = d.getElementsByTagName('script')[0];
+                to.parentNode.insertBefore(s, to);
+              })();</script><a href="https://1map.com/es/map-embed">1 Map</a></div>
+
+
+
+         
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-bookmark-blue">Sobre nosotros</h1>
+            <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+              Somos una inmobiliaria ubicada en el corazón del centro de San Fernando del Valle de Catamarca. Aunque somos nuevos en el mercado, estamos comprometidos con brindar un servicio excepcional a nuestros clientes. Nuestro equipo de martilleros públicos está listo para ayudarte en todas tus necesidades relacionadas con la compra, venta y alquiler de propiedades.
+            </p>
+          </div>
+        </div>
+        <!-- Rounded Rectangle -->
+        <div
+          class="
+            hidden
+            lg:block
+            overflow-hidden
+            bg-bookmark-purple
+            rounded-l-full
+            absolute
+            h-80
+            w-2/4
+            -bottom-24
+            -right-36
+          "
+        ></div>
+      </div>
+      <!-- fromulario de contacto -->
+      <div class="relative mt-20 lg:mt-52">
+        <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+          <!-- Image -->
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img
+              class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
+              src="./imgs/illustration-features-tab-3.png"
+              alt=""
+            />
+          </div>
+          <!-- Content -->
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-bookmark-blue">Contactanos</h1>
+            <div class="container mx-auto my-20 bg-white">
+              <div>
+            
+                <form>
+                  <div class="grid grid-cols-2 gap-5">
+                    <input
+                      type="text"
+                      class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500"
+                      placeholder="Nombre"
+                    />
+                    <input
+                      type="text"
+                      class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500"
+                      placeholder="Apellido"
+                    />
+                    <input
+                      type="email"
+                      class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500 col-span-2"
+                      placeholder="Email"
+                    />
+                    <input
+                      type="tel"
+                      class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500 col-span-2"
+                      placeholder="Telefono"
+                    />
+                    <textarea
+                      cols="10"
+                      rows="5"
+                      class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500 col-span-2"
+                      placeholder="Mensaje..."
+                    ></textarea>
+                  </div>
+                  <input
+                    type="submit"
+                    value="Enviar"
+                    class="focus:outline-none mt-5  px-4 py-2 btn-purple hover:bg-bookmark-white hover:text-black font-bold w-full"
+                  />
+                </form>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <!-- Rounded Rectangle -->
+        <div
+          class="
+            hidden
+            lg:block
+            overflow-hidden
+            bg-bookmark-purple
+            rounded-r-full
+            absolute
+            h-80
+            w-2/4
+            -bottom-24
+            -left-36
+          "
+        ></div>
+      </div>
+    </section>
+
+    
+
+    <!-- Subscribite -->
+    <section class="bg-bookmark-purple text-white py-20">
+      <div class="container">
+        <div class="sm:w-3/4 lg:w-2/4 mx-auto">
+          <p class="font-light uppercase text-center mb-8">Newsletter</p>
+          <h1 class="text-3xl text-center">Conoce todas nuestras novedades a tiempo.</h1>
+          <div class="flex flex-col sm:flex-row gap-6 mt-8">
+            <input
+              type="text"
+              placeholder="Tu direccion de mail"
+              class="focus:outline-none flex-1 px-2 py-3 rounded-md text-black"
+            />
+            <button type="button" class="btn bg-bookmark-red hover:bg-bookmark-white hover:text-black">
+              Quiero subscribirme
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-bookmark-blue py-8">
+      <div class="container flex flex-col md:flex-row items-center">
+        <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
+          <img class="w-9 h-9"   src="./imgs/pngwing.com.png" alt="" />
+          <ul class="flex text-white uppercase gap-12 text-xs">
+            <li class="cursor-pointer">Blog</li>
+            <li class="cursor-pointer">Legales</li>
+            <li class="cursor-pointer">Contacto</li>
+          </ul>
+          
+        </div>
+        <div class="flex gap-10 mt-12 md:mt-0">
+          <li><i class="text-white text-2xl fab fa-twitter"></i></li>
+          <li><i class="text-white text-2xl fab fa-facebook-square"></i></li>
+        </div>
+      </div>
+      
+      </footer>
+  </body>
+</html>

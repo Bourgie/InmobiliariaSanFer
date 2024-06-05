@@ -1,0 +1,17 @@
+{
+  "name": "proyecto-17",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwinds": "tailwind build src/style.css -o public/style.css"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  
+  "devDependencies": {
+    "tailwindcss": "^2.1.4"
+  },
+  "description": ""
+}
